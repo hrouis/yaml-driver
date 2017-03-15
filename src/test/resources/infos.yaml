@@ -1,0 +1,19 @@
+name: dakar
+version: 0.0.1
+description: Une bibliothèque qui permet de créer des éléments à collectionner.
+dependencies:
+  args: any
+  browser: any
+  geo: any
+  shelf: any
+  shelf_web_socket: any
+  shelf_static: any
+  xml_rpc: any
+  google_maps: ^3.1.0
+  dart_to_js_script_rewriter: ^0.1.0
+dev_dependencies:
+  test: any
+transformers:
+- dart_to_js_script_rewriter
+- js_anonymizer
+- js_compresser
